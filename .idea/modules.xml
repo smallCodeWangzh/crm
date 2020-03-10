@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/crm-common/crm-common.iml" filepath="$PROJECT_DIR$/crm-common/crm-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/crm-gateway/crm-gateway.iml" filepath="$PROJECT_DIR$/crm-gateway/crm-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/crm-registry/crm-registry.iml" filepath="$PROJECT_DIR$/crm-registry/crm-registry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/crm-systemset/crm-systemset-interface/crm-systemset-interface.iml" filepath="$PROJECT_DIR$/crm-systemset/crm-systemset-interface/crm-systemset-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/crm-systemset/crm-systemset-service/crm-systemset-service.iml" filepath="$PROJECT_DIR$/crm-systemset/crm-systemset-service/crm-systemset-service.iml" />
+    </modules>
+  </component>
+</project>

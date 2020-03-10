@@ -1,0 +1,16 @@
+server:
+  port: 8002
+spring:
+  application:
+    name: crm-systemset
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://120.78.171.248:3306/crm?useunicode=true;&characterEncoding=utf8
+    password: crm
+    username: crm
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10086/eureka
+mybatis:
+  mapper-locations: classpath:mapper/**/*Mapper.xml
