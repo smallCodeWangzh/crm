@@ -14,3 +14,5 @@ eureka:
       defaultZone: http://127.0.0.1:10086/eureka
 mybatis:
   mapper-locations: classpath:mapper/**/*Mapper.xml
+swagger:
+  base-package: com.crm.web.controller
