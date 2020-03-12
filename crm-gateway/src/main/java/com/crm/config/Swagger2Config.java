@@ -22,6 +22,7 @@ public class Swagger2Config implements SwaggerResourcesProvider {
          * /member/v2/api-docs ---> member就是application.yml配置的路由路径，后面的/v2/api-docs固定写法
          */
         resources.add(swaggerResource("系统设置", "/api/crm-systemset/v2/api-docs", "2.0"));
+        resources.add(swaggerResource("登陆认证", "/api/crm-auth/v2/api-docs", "2.0"));
       //  resources.add(swaggerResource("crm-systemset", "/api/crm-systemset/v2/api-docs","2.0"));
         return resources;
     }

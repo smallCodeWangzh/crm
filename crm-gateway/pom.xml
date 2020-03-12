@@ -29,6 +29,15 @@
             <artifactId>spring-cloud-starter-netflix-zuul</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.crm</groupId>
+            <artifactId>crm-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
 
         <!--
             在网关中加入swagger启动器

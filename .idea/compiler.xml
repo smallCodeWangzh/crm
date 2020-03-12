@@ -7,14 +7,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="crm-common" />
-        <module name="crm-systemset-service" />
+        <module name="ccrm-auth" />
         <module name="crm-systemset-interface" />
         <module name="crm-gateway" />
+        <module name="crm-systemset-service" />
         <module name="crm-registry" />
+        <module name="crm-common" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="ccrm-auth" target="1.8" />
       <module name="crm-common" target="1.8" />
       <module name="crm-gateway" target="1.8" />
       <module name="crm-registry" target="1.8" />
@@ -25,6 +27,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ccrm-auth" options="-parameters" />
       <module name="crm-common" options="-parameters" />
       <module name="crm-gateway" options="-parameters" />
       <module name="crm-registry" options="-parameters" />

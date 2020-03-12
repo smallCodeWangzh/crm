@@ -26,4 +26,23 @@ public class RoleService {
     public List<Role> findAllRole() {
         return roleMapper.selectByExample(new RoleExample());
     }
+
+    public void savaOrUpdate(Role role) {
+        if (role == null) {
+            throw  new CrmException(ExceptionEnums.PARAM_IS_NULL);
+        }
+        if (role.getRoleId() == null) {
+            roleMapper.insert(role);
+        } else {
+            roleMapper.updateByPrimaryKey(role);
+        }
+    }
+
+    public void deleteById(Long id) {
+        if (id == null) {
+            throw  new CrmException(ExceptionEnums.PARAM_IS_NULL);
+        }
+        roleMapper.deleteByPrimaryKey(id);
+    }
+
 }

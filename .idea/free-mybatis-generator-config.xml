@@ -28,6 +28,31 @@
             </Config>
           </value>
         </entry>
+        <entry key="sys_user">
+          <value>
+            <Config>
+              <option name="comment" value="true" />
+              <option name="daoMvnPath" value="src/main/java" />
+              <option name="daoName" value="UserMapper" />
+              <option name="daoPackage" value="com.crm.mapper" />
+              <option name="daoPostfix" value="Mapper" />
+              <option name="modelMvnPath" value="src/main/java" />
+              <option name="modelName" value="User" />
+              <option name="modelPackage" value="com.crm.bean" />
+              <option name="name" value="sys_user" />
+              <option name="overrideJava" value="true" />
+              <option name="overrideXML" value="true" />
+              <option name="primaryKey" value="usr_id" />
+              <option name="projectFolder" value="$PROJECT_DIR$/crm-systemset/crm-systemset-interface" />
+              <option name="tableName" value="sys_user" />
+              <option name="useExample" value="true" />
+              <option name="useLombokPlugin" value="true" />
+              <option name="useSchemaPrefix" value="true" />
+              <option name="xmlMvnPath" value="src/main/resources" />
+              <option name="xmlPackage" value="mapper" />
+            </Config>
+          </value>
+        </entry>
       </map>
     </option>
   </component>

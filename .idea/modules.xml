@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ccrm-auth/ccrm-auth.iml" filepath="$PROJECT_DIR$/ccrm-auth/ccrm-auth.iml" />
       <module fileurl="file://$PROJECT_DIR$/crm-common/crm-common.iml" filepath="$PROJECT_DIR$/crm-common/crm-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/crm-gateway/crm-gateway.iml" filepath="$PROJECT_DIR$/crm-gateway/crm-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/crm-registry/crm-registry.iml" filepath="$PROJECT_DIR$/crm-registry/crm-registry.iml" />
